@@ -1,0 +1,42 @@
+1.  "student_login": "http://127.0.0.1:8000/api/student_login/",
+
+	key={"email":"write_email_here",
+		"password":"write_password_here"
+		}
+
+
+
+
+2.  "student_register": "http://127.0.0.1:8000/api/student_register/",   ,(POST)
+
+	key={"name":"write_name_here",
+		"email":"write_email_here",
+		"password":"write_password_here",
+		"address":"write_address_here",
+		}
+
+
+3.   "student_score": "http://127.0.0.1:8000/api/student_score/",   ,(POST)
+
+	key={"id":"write_candiate_id_here",
+		"first_round_score":"provide_first_round_score_here",
+		"second_round_score":"provide_second_round_score_here",
+		"third_round_score":"provide_third_round_score_here",
+		}
+
+
+4.   "highest_score_AvgScore": "http://127.0.0.1:8000/api/highest_score_AvgScore/", (GET)
+
+
+
+
+
+5."address_update":"http://localhost:8000/api/all_candidate/#pass_id_here/",(update)
+
+	key={"id":"provide_id_here",
+		"address":"provide_address_here"}
+
+
+6.   "all_candidate": "http://127.0.0.1:8000/api/all_candidate/", (GET)   
+
+		

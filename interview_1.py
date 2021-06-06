@@ -1,6 +1,6 @@
-def lst_sum(li):
-	return sum(li)
+def lst_sum(l1):
+	return sum(l1)
 
-li=[1,2,3,4]
-a=lst_sum(li)
+l1=[1,2,3,4]
+a=lst_sum(l1)
 print('Sum of list is:',a)
